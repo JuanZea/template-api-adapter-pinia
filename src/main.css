@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply inline-flex items-center rounded-md px-4 py-2;
+    @apply border border-transparent shadow-sm;
+    @apply bg-indigo-600;
+    @apply hover:bg-indigo-700;
+    @apply text-sm font-medium text-white;
+    @apply focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2;
+}
